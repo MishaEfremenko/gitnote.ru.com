@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Public+Sans&display=swap');
+    body{
+        font-family: 'Public Sans', sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .window{
+        font-size:25px;
+        width:30%;
+        text-align: center;
+        background-color: white;
+        border-radius: 15px;
+        font-weight:bold;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        transition: 0.5s;
+    }
+    .window>div{
+        margin:15px;
+        margin-bottom:0;
+    }
+    .window>input{
+        border-radius:10px;
+        text-decoration:none;
+        margin:15px;
+        width: 80%;
+        margin-bottom: 0;
+        border: 1px solid black;
+        font-size: 1.0em;
+    }
+    .window>input:nth-child(0){
+        margin-bottom: 0;
+    }
+    #about{
+        margin: 15px;
+        margin-top: -5%;
+        font-size: 1.5em;
+    }
+    .loginbut{
+        border: 1px solid black;
+        border-radius: 5px;
+        cursor: pointer;
+        color: black;
+        transition: 1s;
+        margin: 15px;
+    }
+    .loginbut:nth-child(2){
+        margin:15px;
+    }
+    #regis{
+        margin-bottom:15px;
+    }
+    .loginbut:hover{
+        background-color: black;
+        color: white;
+    }
